@@ -62,7 +62,7 @@ const SigninScreen = () => {
           <View style={styles.buttonsContainer}>
             <TouchableOpacity onPress={handleSignInPress}>
               <Text style={styles.signInText}>
-                Already have an account? <Text style={styles.linkText}>Sign in</Text>
+                Don't have an account? <Text style={styles.linkText}>Sign up</Text>
               </Text>
             </TouchableOpacity>
 
@@ -100,6 +100,7 @@ const styles = StyleSheet.create({
     top: 170, // Adjust top padding for form positioning"
   },
   signInText: {
+    marginTop: 20,
     fontSize: 16,
     color: '#666',
     textAlign: 'center',
