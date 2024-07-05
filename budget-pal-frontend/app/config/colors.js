@@ -15,3 +15,17 @@
 // 5. drawer navigation - this is a side drawer that opens when the hamburger menu icon is clicked on the dashboard screen. this drawer has links to the dashboard screen, income and expenses screen, goals screen and activity screen. this drawer also has a logout button to logout of the app. and the settings page
 //6. settings page - this page has the settings of the app like - changing the user name, changing the password, changing the currency, changing the language etc. this page also has a delete account button to delete the account and all the data associated with it. more importantly we can customise the notificaions we need to receive. like if i want to be notified every day at 8pm to enter my todays expenses and income i can set that here. 
 //also this will help me cutomize other notifications like feedback on my expenses and income, reminders for my goals etc.
+
+//Defining the color pallete
+export default {
+    pink: "#FCA5B5",
+    purple: "#D67BFF",
+    primary: "#fc5c65",
+    secondary: "#4ecdc4",
+    black: "#000",
+    white: "#fff",
+    beige: "#FFCA64",
+    mint: "#45FFCA",
+    danger: "#ff5252",
+    dark: "#0c0c0c"
+}
