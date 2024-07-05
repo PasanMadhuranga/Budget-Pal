@@ -4,11 +4,12 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 import SigninScreen from './app/screens/SigninScreen';
 import SignupScreen from './app/screens/SignupScreen';
 import PopupMenu from './app/components/PopupMenu';
+import DividerComponent from './app/components/Divider';
 
 export default function App() {
   return (
     <View >
-      <PopupMenu />
+      <DividerComponent />
 
     </View>
   );
