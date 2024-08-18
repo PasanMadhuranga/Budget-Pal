@@ -115,7 +115,7 @@ function DashboardScreen({ navigation }) {
               styles.pressable,
             ]}
           >
-            <Text style={styles.buttonText}> Activity</Text>
+            <Text style={styles.buttonText}> Activities</Text>
             <Icon name="credit-card" size={30}></Icon>
           </Pressable>
 

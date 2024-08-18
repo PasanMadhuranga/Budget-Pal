@@ -1,5 +1,4 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
 import DashboardScreen from "./app/screens/DashboardScreen";
 import ExpensesScreen from "./app/screens/ExpensesScreen";
 import IncomeScreen from "./app/screens/IncomeScreen";
@@ -47,7 +46,7 @@ export default function App() {
         <Stack.Screen
           name="Activity"
           component={ActivityScreen}
-          // options={{ headerShown: false }}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
