@@ -13,6 +13,13 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 SplashScreen.preventAutoHideAsync();
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+import WelcomeScreen from './app/screens/WelcomeScreen';
+import SigninScreen from './app/screens/SigninScreen';
+import SignupScreen from './app/screens/SignupScreen';
+import PopupMenu from './app/components/PopupMenu';
+import DividerComponent from './app/components/Divider';
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -33,6 +40,7 @@ export default function App() {
   }
 
   return (
+
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
@@ -55,3 +63,13 @@ export default function App() {
 
 // Register the main component of your application
 AppRegistry.registerComponent(appName, () => App);
+
+//     <View >
+//       <DividerComponent />
+
+//     </View>
+//   );
+// }
+
+
+
